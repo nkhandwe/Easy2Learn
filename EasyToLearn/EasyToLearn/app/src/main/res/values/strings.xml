@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EasyToLearn</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_import">Import</string>
+    <string name="app_home">Home</string>
+    <string name="app_vedio">Vedio</string>
+    <string name="app_download">Download</string>
+    <string name="app_share">Share</string>
+    <string name="app_logout">Logout</string>
+
+
+</resources>

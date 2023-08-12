@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#360E91</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">#0C0C0C</color>
+    <color name="violet">#830CA3</color>
+    <color name="backgroundblack">#4A3232</color>
+
+    <color name="workcolorground">#38A3D6</color>
+    <color name="yellow">#EFAE2D</color>
+    <color name="grey">#DDDDDD</color>
+    <color name="linearoutgrey">#959292</color>
+    <color name="lineargrey">#F3F3F3</color>
+    <color name="chemistryblue">#BA9EFB</color>
+    <color name="physicsorange">#EF5728</color>
+    <color name="worksheet1">#079EE8</color>
+    <color name="green">#8BCD49</color>
+    <color name="blue">#5329B3</color>
+    <color name="darkblue">#0D3171</color>
+    <color name="accent">#1D7883</color>
+    <color name="darkgreen">#59AA09</color>
+    <color name="orange">#FAB515</color>
+    <color name="red">#F65F5C</color>
+    <color name="pink">#E4E62DFA</color>
+    <color name="darksky">#0F8C7F</color>
+    <color name="white">#FDFDFD</color>
+</resources>

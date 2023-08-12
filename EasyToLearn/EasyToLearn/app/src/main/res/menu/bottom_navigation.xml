@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/learn"
+        android:icon="@drawable/learn"
+        android:title="Learn"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/test"
+        android:icon="@drawable/test"
+        android:title="Test"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/analytic"
+        android:icon="@drawable/analytic"
+        android:title="Reeports"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/doubts"
+        android:icon="@drawable/bookmarks"
+        android:title="Bookmarks"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
+<!--
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/learn"
+        android:icon="@drawable/learn"
+        android:title="Learn"/>
+    <item
+        android:id="@+id/test"
+        android:title="Tests"
+        android:icon="@drawable/test"/>
+    <item
+        android:id="@+id/analytic"
+        android:icon="@drawable/analytic"
+        android:title="Analytics"/>
+    <item
+        android:id="@+id/doubts"
+        android:title="Doubts"
+        android:icon="@drawable/doubts"/>
+</menu>-->

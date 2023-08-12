@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv_worksheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="@dimen/dp_2"
+    app:cardCornerRadius="@dimen/dp_10"
+    android:layout_margin="@dimen/dp_5"
+    android:foregroundGravity="center"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/squarebackground"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/worksheet1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_work_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WorkSheet-1"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="@dimen/dp_10"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_18"
+                android:layout_marginRight="@dimen/dp_10"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="@dimen/dp_5"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/eyes" />
+
+            <ImageView
+                android:id="@+id/iv_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_5"
+                android:tint="@color/white"
+                android:padding="@dimen/dp_5"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/download" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/white"
+            android:backgroundTint="@color/blue"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/logo"
+                android:layout_gravity="end"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivMath"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="@dimen/dp_20"
+                    android:tint="@color/white"
+                    android:src="@mipmap/maths" />
+
+                <ImageView
+                    android:id="@+id/ivChemistry"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="@dimen/dp_20"
+                    android:tint="@color/white"
+                    android:visibility="gone"
+                    android:src="@mipmap/chemistry" />
+
+                <ImageView
+                    android:id="@+id/ivPhysics"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:visibility="gone"
+                    android:layout_margin="@dimen/dp_20"
+                    android:src="@mipmap/physics" />
+
+                <ImageView
+                    android:id="@+id/ivBiology"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="@dimen/dp_20"
+                    android:tint="@color/white"
+                    android:visibility="gone"
+                    android:src="@mipmap/biology" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_chapter_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Real Numbers"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp_12"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WorkSheet-1"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="gone"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+</layout>

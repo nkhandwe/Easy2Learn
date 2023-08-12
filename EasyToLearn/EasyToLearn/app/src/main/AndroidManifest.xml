@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.easytolearn">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.e2lReports.E2lQuizReports"
+            android:screenOrientation="landscape" />
+        <activity android:name=".activity.e2lReports.AssignmentsReportsActivity" />
+        <activity android:name=".activity.e2lReports.QuizReportsActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.e2lTest.SchoolAssignmentActivity" />
+        <activity android:name=".activity.e2lTest.E2lSchoolAssessmentActivity" />
+        <activity android:name=".activity.e2lTest.E2lAssessmentActivity" />
+        <activity android:name=".activity.ViewWorksheetActivity" />
+        <activity android:name=".activity.MindMapActivity" />
+        <activity android:name=".activity.NCRTActivity" />
+        <activity android:name=".activity.WorkSheetActivity" />
+        <activity android:name=".activity.QuestionSetActivityNew" />
+        <activity android:name=".activity.VideoActivity" />
+        <activity android:name=".activity.ConceptActivity" />
+        <activity android:name=".activity.ChooseOneF" />
+        <activity android:name=".activity.ViewBookMarksActivity" />
+        <activity android:name=".activity.ReferEarnActvity" />
+        <activity android:name=".activity.QuizReportActivity" />
+        <activity android:name=".activity.BookMarkDetails" />
+        <activity android:name=".activity.DoubtsChatActivity" />
+        <activity android:name=".activity.MobileNumberSignup" />
+        <activity android:name=".activity.SubQuestionList" />
+        <activity android:name=".activity.VideoShowActivity" />
+        <activity android:name=".activity.DashBoardActivity" />
+        <activity android:name=".activity.QuestionSetActivity" />
+        <activity android:name=".activity.LeaderBoardActivity" />
+        <activity android:name=".activity.AskDoubts" />
+        <activity android:name=".activity.ViewBookmarks" />
+        <activity android:name=".activity.Test" />
+        <activity android:name=".activity.Reports" />
+        <activity android:name=".activity.PrivacyPolicy" />
+        <activity android:name=".activity.Doubts" />
+        <activity android:name=".activity.Bookmarks" />
+        <activity android:name=".activity.Biology" />
+        <activity android:name=".activity.Chemistry" />
+        <activity android:name=".activity.Physics" />
+        <activity android:name=".activity.Math" />
+        <activity android:name=".activity.Dashboard" />
+        <activity android:name=".activity.MenuItem" />
+        <activity android:name=".activity.NcertSolution" />
+        <activity android:name=".activity.DataHandling" />
+        <activity android:name=".activity.EasyAnswerViewSecond" />
+        <activity android:name=".activity.AnswerView" />
+        <activity android:name=".activity.solutionActivity" />
+        <activity android:name=".activity.IntegersQuestions" />
+        <activity android:name=".activity.WorkSheet" />
+        <activity android:name=".activity.MathQuestionSetOne" />
+        <activity android:name=".activity.MathQuestionSet" />
+        <activity android:name=".activity.MathVedioList" />
+        <activity android:name=".activity.ChapterOneFraction" />
+        <activity android:name=".activity.ChapterList" />
+        <activity android:name=".activity.ChooseSubject" />
+        <activity android:name=".activity.SelectCourseSet" />
+        <activity android:name=".activity.SelectBoard" />
+        <activity android:name=".activity.ChooseClass" />
+        <activity android:name=".activity.MobileNumber" />
+        <activity android:name=".activity.SetPassword" />
+        <activity android:name=".activity.OtpPage" />
+        <activity android:name=".activity.Registration" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
